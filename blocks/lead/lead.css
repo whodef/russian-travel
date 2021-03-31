@@ -1,20 +1,20 @@
 .lead {
     display: grid;
-    grid-template: repeat(4, auto)/ minmax(100px, auto) minmax(auto, 984px) minmax(100px, auto);
+    grid-template: repeat(4, auto) / minmax(100px, auto) minmax(auto, 984px) minmax(100px, auto);
     align-self: center;
     padding: 0;
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        grid-template: repeat(4, auto)/ 16px 1fr 16px;
+        grid-template: repeat(4, auto) / 16px 1fr 16px;
     }
 
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .lead {
-        grid-template: repeat(4, auto)/ 24px 1fr 24px;
+        grid-template: repeat(4, auto) / 24px 1fr 24px;
     }
 
 }
