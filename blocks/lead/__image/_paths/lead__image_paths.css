@@ -1,0 +1,7 @@
+.lead__image_paths {
+    position: relative;
+    top: 85px;
+    grid-column: 2/3;
+    grid-row: 3/3;
+    z-index: 1;
+}

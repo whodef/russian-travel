@@ -1,0 +1,19 @@
+.photo-grid {
+    margin: 0;
+    padding: 92px 0;
+    display: grid;
+    grid-template: 1fr / minmax(48px, auto) minmax(auto, 1184px) minmax(48px, auto);
+}
+
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        grid-template: 1fr / 24px 1fr 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        grid-template: 1fr / 16px 1fr 16px;
+    }
+}

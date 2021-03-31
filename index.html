@@ -25,8 +25,12 @@
             </svg>
         </div>
         <ul class="header__lang-links">
-            <li class="header__lang-link header__lang-link_active" lang="ru">Ru</li>
-            <li class="header__lang-link" lang="en">En</li>
+            <li>
+                <a class="header__lang-link header__lang-link_active" lang="ru">Ru</a>
+            </li>
+            <li>
+                <a class="header__lang-link" lang="en">En</a>
+            </li>
         </ul>
     </header>
 
@@ -35,6 +39,7 @@
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.jpg" alt="СОН - это аббревиатура, обозначающая Самое Офигенное Наслаждение">
+            <img class="lead__image lead__image_paths" src="./images/Group4.svg" alt="Путь">
             <p class="lead__caption">Ваша полка — верхняя</p>
         </section>
 
@@ -61,18 +66,20 @@
         </section>
 
         <section class="photo-grid">
-            <img class="photo-grid__image" src="./images/photo/item-11.jpg" alt="Великолепный вид из окна поезда">
-            <img class="photo-grid__image" src="./images/photo/item-10.jpg" alt="Заснеженные горы в белых облаках">
-            <img class="photo-grid__image" src="./images/photo/item-9.jpg" alt="Стоящая на стоге сена собака пристально всматривается в даль">
-            <img class="photo-grid__image" src="./images/photo/item-8.jpg" alt="Ельник в тумане на склоне горы">
-            <img class="photo-grid__image" src="./images/photo/item-7.jpg" alt="Колесо машины на толстом слое льда замёрзшего Байкала">
-            <img class="photo-grid__image" src="./images/photo/item-6.jpg" alt="Пустынный берег моря и горная цепь виднеется вдалеке">
-            <img class="photo-grid__image" src="./images/photo/item-5.jpg" alt="Острые пики снежных гор">
-            <img class="photo-grid__image" src="./images/photo/item-4.jpg" alt="Белые строительные блоки и знак пешеходного перехода">
-            <img class="photo-grid__image" src="./images/photo/item-3.jpg" alt="Камчатские красоты в тумане">
-            <img class="photo-grid__image" src="./images/photo/item-2.jpg" alt="Пейзаж Камчатки">
-            <img class="photo-grid__image" src="./images/photo/item-1.jpg" alt="Пейзаж Байкала">
-            <img class="photo-grid__image" src="./images/photo/item.jpg" alt="Редеющий туман в горной местности">
+            <div class="photo-grid__items">
+                <img class="photo-grid__item" src="./images/photo/item-11.jpg" alt="Великолепный вид из окна поезда">
+                <img class="photo-grid__item" src="./images/photo/item-10.jpg" alt="Заснеженные горы в белых облаках">
+                <img class="photo-grid__item" src="./images/photo/item-9.jpg" alt="Стоящая на стоге сена собака пристально всматривается в даль">
+                <img class="photo-grid__item" src="./images/photo/item-8.jpg" alt="Ельник в тумане на склоне горы">
+                <img class="photo-grid__item" src="./images/photo/item-7.jpg" alt="Колесо машины на толстом слое льда замёрзшего Байкала">
+                <img class="photo-grid__item" src="./images/photo/item-6.jpg" alt="Пустынный берег моря и горная цепь виднеется вдалеке">
+                <img class="photo-grid__item" src="./images/photo/item-5.jpg" alt="Острые пики снежных гор">
+                <img class="photo-grid__item" src="./images/photo/item-4.jpg" alt="Белые строительные блоки и знак пешеходного перехода">
+                <img class="photo-grid__item" src="./images/photo/item-3.jpg" alt="Камчатские красоты в тумане">
+                <img class="photo-grid__item" src="./images/photo/item-2.jpg" alt="Пейзаж Камчатки">
+                <img class="photo-grid__item" src="./images/photo/item-1.jpg" alt="Пейзаж Байкала">
+                <img class="photo-grid__item" src="./images/photo/item.jpg" alt="Редеющий туман в горной местности">
+            </div>
         </section>
 
         <section class="places">
@@ -138,11 +145,9 @@
         </section>
 
         <section class="cover">
-            <a class="cover__background" href="#" target="_blank">
-                <div class="cover__overlay">
-                    <h2 class="cover__title">До Байкала «на собаках»</h2>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-                </div>
+            <a class="cover__overlay" href="#" target="_blank">
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
             </a>
         </section>
     </main>
