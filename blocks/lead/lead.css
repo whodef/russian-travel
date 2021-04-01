@@ -1,20 +1,18 @@
 .lead {
-    display: grid;
-    grid-template: repeat(4, auto) / minmax(50px, auto) minmax(auto, 984px) minmax(50px, auto);
-    align-self: center;
-    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 984px;
+    margin: 0 auto;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
     .lead {
-        grid-template: repeat(4, auto) / 16px 1fr 16px;
+        max-width: 928px;
     }
-
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead {
-        grid-template: repeat(4, auto) / 24px 1fr 24px;
+        max-width: 768px;
     }
-
 }

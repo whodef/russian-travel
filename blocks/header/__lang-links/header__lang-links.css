@@ -1,6 +1,6 @@
 .header__lang-links {
-    padding: 0;
     margin: 0;
     display: flex;
-    list-style: none;
-}я
+    flex-direction: row;
+    list-style-type: none;
+}
