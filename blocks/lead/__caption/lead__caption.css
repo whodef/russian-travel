@@ -5,7 +5,7 @@
     line-height: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead__caption {
