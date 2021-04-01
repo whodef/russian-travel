@@ -1,6 +1,7 @@
 .footer__links {
     margin: 0;
     padding-right: 18px;
+    display: flex;
     text-decoration: none;
     list-style-type: none;
     font-family: "Inter", "Arial", sans-serif;
