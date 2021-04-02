@@ -10,15 +10,9 @@
     background-image: url('../../images/background.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-
 }
 
-/*.cover:hover {*/
-/*    opacity: .8;*/
-/*    transition-duration: .3s;*/
-/*}*/
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
     .cover {
         min-height: 640px;
     }
