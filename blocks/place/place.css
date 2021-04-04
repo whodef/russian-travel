@@ -9,7 +9,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
     .place {
         grid-template-columns: 440px 456px;
-        grid-template-rows: auto;
         grid-column-gap: 32px;
     }
 }
@@ -17,7 +16,6 @@
     .place {
         padding: 0 0 72px;
         grid-template-columns: 340px 352px;
-        grid-template-rows: auto;
         grid-column-gap: 28px;
     }
 }
