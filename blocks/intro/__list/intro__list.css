@@ -13,6 +13,7 @@
 }
 @media screen and (max-width: 767px) {
     .intro__list {
+        max-width: 288px;
         padding: 0 0 64px 0;
     }
 }

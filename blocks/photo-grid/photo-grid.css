@@ -31,3 +31,9 @@
         grid-gap: 12px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .content {
+        max-width: 100%;
+    }
+}

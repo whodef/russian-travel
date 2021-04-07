@@ -10,20 +10,24 @@
     font-family: "Inter", "Arial", sans-serif;
     color: #ffffff;
 }
+
 .place__paragraph:last-of-type {
     padding-bottom: 0;
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place__paragraph {
         max-width: 456px;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .place__paragraph {
         padding: 0 16px 24px 16px;
