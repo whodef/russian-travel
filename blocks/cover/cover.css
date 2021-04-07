@@ -1,7 +1,35 @@
 .cover {
-    margin: 0 auto;
+    margin: 92px auto;
     width: 100%;
-    height: 100%;
+    max-width: 1184px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: normal;
+    background-image: url('../../images/background.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.cover::before {
+    content: " ";
+    position: absolute;
+    max-width: 1184px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2a2c2f;
+    opacity: .3;
+    transition: .3s linear;
+}
+
+.cover:hover{
+    opacity: .8;
 }
 
 @media screen and (min-width: 1280px) {
@@ -22,15 +50,3 @@
         max-width: 100%;
     }
 }
-
-/*@media screen and (min-width: 768px) and (max-width: 1023px) {*/
-/*    .cover {*/
-/*        max-width: 768px;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 767px) {*/
-/*    .cover {*/
-/*        max-width: 320px;*/
-/*    }*/
-/*}*/
