@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .content {
+    .footer {
         max-width: 100%;
     }
 }

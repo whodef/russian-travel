@@ -23,12 +23,12 @@
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #2a2c2f;
     opacity: .3;
     transition: .3s linear;
+    background-color: #2a2c2f;
 }
 
-.cover:hover{
+.cover:hover::before {
     opacity: .8;
 }
 

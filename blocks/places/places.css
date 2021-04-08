@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .content {
+    .places {
         max-width: 100%;
     }
 }

@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .content {
+    .photo-grid {
         max-width: 100%;
     }
 }
