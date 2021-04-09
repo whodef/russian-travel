@@ -4,7 +4,7 @@
     max-width: 1184px;
     display: grid;
     grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(3, 215px);
+    grid-template-rows: repeat(3, 213px);
     grid-gap: 16px;
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -25,9 +25,10 @@
 }
 @media screen and (max-width: 767px) {
     .photo-grid {
-        padding: 0 0 64px;
+        padding: 0 16px 64px;
         max-width: 288px;
         grid-template-columns: 288px;
+        grid-template-rows: 216px;
         grid-gap: 12px;
     }
 }

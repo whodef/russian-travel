@@ -1,7 +1,9 @@
 .cover {
-    margin: 92px auto;
+    margin: 0 auto;
+    padding: 0;
     width: 100%;
     max-width: 1184px;
+    height: 740px;
     position: relative;
     display: flex;
     align-items: center;
@@ -10,7 +12,7 @@
     font-weight: normal;
     background-image: url('../../images/background.jpg');
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     text-decoration: none;
 }
@@ -18,7 +20,6 @@
 .cover::before {
     content: " ";
     position: absolute;
-    max-width: 1184px;
     left: 0;
     top: 0;
     bottom: 0;
@@ -32,21 +33,32 @@
     opacity: .8;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1184px) {
     .cover {
-        max-width: 1184px;
-        min-height: 740px;
+        height: calc( 100vw / 1.6 );
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover {
-        max-width: 1024px;
-    }
-}
+/*@media screen and (min-width: 1280px) {*/
+/*    .cover {*/
+/*       max-height: 740px;*/
+/*    }*/
+/*}*/
 
-@media screen and (max-width: 320px) {
-    .content {
-        max-width: 100%;
-    }
-}
+/*@media screen and (min-width: 1024px) and (max-width: 1279px) {*/
+/*    .cover {*/
+/*        min-height: 640px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 768px) and (max-width: 1023px) {*/
+/*    .cover {*/
+/*        min-height: 480px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 320px) {*/
+/*    .content {*/
+/*        min-height: 200px;*/
+/*    }*/
+/*}*/
