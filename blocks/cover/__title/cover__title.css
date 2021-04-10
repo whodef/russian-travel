@@ -26,16 +26,7 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
-    .cover__title {
-        padding: 17vw 0 0;
-        width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         padding: 33px 0 0;
         width: 288px;

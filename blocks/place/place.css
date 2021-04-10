@@ -1,11 +1,11 @@
 .place {
+    margin: 0 auto;
     padding: 0 0 80px;
     display: grid;
-    grid-template-columns: 460px 456px;
+    grid-template-columns: 460px 484px;
     grid-template-rows: auto;
     grid-row-gap: 48px;
     grid-column-gap: 40px;
-    overflow: hidden;
 }
 
 .place:last-of-type {
